@@ -3,15 +3,15 @@ llantas = int(input('Digite la cantidad de llantas '))
 if llantas < 5:
     valor = 300
     precio = llantas * valor
-    print(f'El valor de las llantasa es de ${valor} y el total a pagar es de: ${precio}')
+    print(f'El valor de las llantas es de ${valor} y el total a pagar es de: ${precio}')
 elif llantas >= 5 and llantas <= 10:
     valor = 250
     precio = llantas * valor
-    print(f'El valor de las llantasa es de ${valor} y el total a pagar es de: ${precio}')
+    print(f'El valor de las llantas es de ${valor} y el total a pagar es de: ${precio}')
 else:
     valor = 200
     precio = llantas * valor
-    print(f'El valor de las llantasa es de ${valor} y el total a pagar es de: ${precio}')
+    print(f'El valor de las llantas es de ${valor} y el total a pagar es de: ${precio}')
 # Punto2
 tvs = float(input('Digite la cantidad de televisores a comprar '))
 precio = float(input('Digite el precio de los televisores '))
